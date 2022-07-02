@@ -4,7 +4,7 @@ import SearchBox from "./components/search-box/search-box.component";
 import "./App.css";
 
 const App = () => {
-  document.title = 'Monster Rolodex'
+  document.title = "Monster Rolodex";
   const [searchField, setSearchField] = useState("");
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilterMonsters] = useState(monsters);
@@ -39,32 +39,5 @@ const App = () => {
     </div>
   );
 };
-
-// class App extends Component {
-//   constructor() {
-//     super();
-
-//     this.state = {
-//       monsters: [],
-//       searchField: "",
-//     };
-//   }
-
-//   onSearchChange = (event) => {
-//     const searchField = event.target.value.toLocaleLowerCase();
-//     this.setState(() => {
-//       return { searchField };
-//     });
-//   };
-
-//   render() {
-//     const filteredMonsters = this.state.monsters.filter((monster) => {
-//       return monster.name.toLocaleLowerCase().includes(this.state.searchField);
-//     });
-//     return (
-//
-//     );
-//   }
-// }
 
 export default App;

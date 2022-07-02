@@ -5,25 +5,25 @@ body {
     "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 50px;
   background: linear-gradient(
     to left,
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
-  
+
   text-align: center;
 }
 
 .app-title {
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 50px;
   font-size: 76px;
   color: #0ccac4;
   font-family: "Bigelow Rules", cursive;
 }
-@media (max-width:600px) {
-  .app-title{
-    font-size: 2rem;
+@media (max-width: 600px) {
+  .app-title {
+    font-size: 3rem;
   }
-  
 }
