@@ -10,8 +10,16 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  font-family: "Major Mono Display", monospace;
+  font-size: small;
+}
+
+.card-container p {
+  font-family: "Gloria Hallelujah", cursive;
+  margin-top: 0px;
 }
 
 .card-container:hover {
   transform: scale(1.05);
+  font-size: medium;
 }
